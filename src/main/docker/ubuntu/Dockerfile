@@ -1,5 +1,7 @@
 FROM picoded/ubuntu-openjdk-8-jdk
 
+MAINTAINER Suvasish Mondal <suvasishmndl@gmail.com>
+
 # Spark 2.1.1 with Hadoop 2.7
 ENV SPARK_VERSION 2.1.1
 ENV HADOOP_VERSION 2.7
